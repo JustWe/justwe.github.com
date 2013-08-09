@@ -81,7 +81,7 @@ ul, li {
 \*-----------------------------*/
 
 body {
-	background: #b9babe url("../img/body-bg.png") repeat;
+	background: #b9babe url(../image/body-bg.png) repeat;
 } 
 .wrapper {
 	margin: 0; padding: 0;
