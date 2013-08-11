@@ -66,7 +66,7 @@ sub {
   bottom: -0.25em;
 }
 
-img {
+image {
   width: auto\9;
   height: auto;
   max-width: 100%;
@@ -75,8 +75,8 @@ img {
   -ms-interpolation-mode: bicubic;
 }
 
-#map_canvas img,
-.google-maps img {
+#map_canvas image,
+.google-maps image {
   max-width: none;
 }
 
@@ -168,10 +168,10 @@ textarea {
     display: table-header-group;
   }
   tr,
-  img {
+  image {
     page-break-inside: avoid;
   }
-  img {
+  image {
     max-width: 100% !important;
   }
   @page  {
@@ -240,13 +240,13 @@ a:hover {
   text-decoration: underline;
 }
 
-.img-rounded {
+.image-rounded {
   -webkit-border-radius: 6px;
      -moz-border-radius: 6px;
           border-radius: 6px;
 }
 
-.img-polaroid {
+.image-polaroid {
   padding: 4px;
   background-color: #fff;
   border: 1px solid #ccc;
@@ -256,7 +256,7 @@ a:hover {
           box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
-.img-circle {
+.image-circle {
   -webkit-border-radius: 500px;
      -moz-border-radius: 500px;
           border-radius: 500px;
@@ -2252,7 +2252,7 @@ table th[class*="span"],
   *margin-right: .3em;
   line-height: 14px;
   vertical-align: text-top;
-  background-image: url("../img/glyphicons-halflings.png");
+  background-image: url("../image/glyphicons-halflings.png");
   background-position: 14px 14px;
   background-repeat: no-repeat;
 }
@@ -2272,7 +2272,7 @@ table th[class*="span"],
 .dropdown-menu > .active > a > [class*=" icon-"],
 .dropdown-submenu:hover > a > [class^="icon-"],
 .dropdown-submenu:hover > a > [class*=" icon-"] {
-  background-image: url("../img/glyphicons-halflings-white.png");
+  background-image: url("../image/glyphicons-halflings-white.png");
 }
 
 .icon-glass {
@@ -3904,7 +3904,7 @@ input[type="submit"].btn.btn-mini {
   background-color: #eeeeee;
 }
 
-.nav > li > a > img {
+.nav > li > a > image {
   max-width: none;
 }
 
@@ -5480,7 +5480,7 @@ a.thumbnail:hover {
           box-shadow: 0 1px 4px rgba(0, 105, 214, 0.25);
 }
 
-.thumbnail > img {
+.thumbnail > image {
   display: block;
   max-width: 100%;
   margin-right: auto;
@@ -5889,7 +5889,7 @@ a.badge:hover {
           transition: 0.6s ease-in-out left;
 }
 
-.carousel-inner > .item > img {
+.carousel-inner > .item > image {
   display: block;
   line-height: 1;
 }
