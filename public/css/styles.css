@@ -897,3 +897,14 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 		background: #dfdcdf url("../image/form-bg@2x.png") repeat;
 	}
 }
+
+
+/*-----------------------------*\
+	$JOVI ZHAN
+\*-----------------------------*/
+
+
+#map_addresses{
+	border: 1px solid #D4D4D4 !important;
+	width:596px !important;
+}

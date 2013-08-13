@@ -93,7 +93,7 @@ lightbox = new Lightbox options
         "class": 'lb-outerContainer'
       }).append($('<div/>', {
         "class": 'lb-container'
-      }).append($('<image/>', {
+      }).append($('<img/>', {
         "class": 'lb-image'
       }), $('<div/>', {
         "class": 'lb-nav'
@@ -105,7 +105,7 @@ lightbox = new Lightbox options
         "class": 'lb-loader'
       }).append($('<a/>', {
         "class": 'lb-cancel'
-      }).append($('<image/>', {
+      }).append($('<img/>', {
         src: this.options.fileLoadingImage
       }))))), $('<div/>', {
         "class": 'lb-dataContainer'
@@ -121,7 +121,7 @@ lightbox = new Lightbox options
         "class": 'lb-closeContainer'
       }).append($('<a/>', {
         "class": 'lb-close'
-      }).append($('<image/>', {
+      }).append($('<img/>', {
         src: this.options.fileCloseImage
       }))))))).appendTo($('body'));
       $('#lightboxOverlay').hide().on('click', function(e) {
