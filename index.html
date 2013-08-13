@@ -32,12 +32,12 @@
 		<!-- NAVIGATION -->
 		<nav class="site_nav" id="site_nav">
 			<ul class="">
-				<li><a href="#about_me">关于我</a></li>
+				<li><a href="#about_me">关于本人</a></li>
 				<li><a href="#my_expertise">我的技能</a></li>
 				<li><a href="#experience">工作经历</a></li>
 				<li><a href="#education">教育经历</a></li>
 				<li><a href="#portfolio">作品简集</a></li>
-				<li><a href="#contact">联系我</a></li>
+				<li><a href="#contact">如何联系</a></li>
 			</ul>
 		</nav> <!-- /site_nav -->
 		<div id="aftermenuspace"></div>
@@ -53,7 +53,7 @@
 			<!-- ABOUT ME -->
 			<section class="row-fluid about_me" id="about_me">
 				<aside class="span3 aside_el">
-					<h2>关于我</h2>
+					<h2>关于本人</h2>
 					<h5>自我描述和<br>联系信息</h5>
 				</aside>
 				<article class="span6 borderleft par_el">
@@ -246,12 +246,26 @@
 		<footer class="row-fluid siteFooter">
 			<div id="contact">
 				<aside class="span3 aside_el">
-					<h2>联系我</h2>
-					<h5>24小时内回复<br>你的email</h5>
+					<h2>如何联系</h2>
+					<h5>如果你有兴趣<br>请email我</h5>
 				</aside>
 				<div class="span9 borderleft">
                  <div class="map_content">
-                  <div id="map_addresses" style="width: 547px; height: 320px; border: 1px solid #777; overflow: hidden;"></div>
+                  <div class="map_in">
+                  <div class="add_info">
+                        <div class="profile_row header first">联系信息</div>
+                        <div class="profile_row address">
+                            <span class="th">地址</span><span class="td">广东深圳 , 罗湖区</span>
+                        </div>
+                        <div class="profile_row phone">
+                            <span class="th">电话</span><span class="td">135 903 42 692</span>
+                        </div>
+                        <div class="profile_row email">
+                            <span class="th">Email</span><span class="td">hxyinsan@gmail.com</span>
+                        </div>
+                     </div>
+                   <div id="map_addresses"></div>
+                  </div>
                  </div>
 				</div>
 			</div>
@@ -263,14 +277,6 @@
 	<script src="public/js/retina.js"></script>
     <script src="public/js/jquery.gmap.min.js"></script>
 	<script>
-	$(document).ready(function(){
-		$('.comment_form input, .comment_form textarea').focus(function () { 
-			$(this).css({"-webkit-box-shadow": "0px 0px 0px rgba(0, 0, 0, 0)", "-moz-box-shadow": "0px 0px 0px rgba(0, 0, 0, 0)", "box-shadow": "0px 0px 0px rgba(0, 0, 0, 0)", "border": "1px solid #999"}); 
-		});
-		$('.comment_form input, .comment_form textarea').blur(function () { 
-			$(this).css({"-webkit-box-shadow": "0px 0px 0px rgba(0, 0, 0, 0)", "-moz-box-shadow": "0px 0px 0px rgba(0, 0, 0, 0)", "box-shadow": "0px 0px 0px rgba(0, 0, 0, 0)", "border": "1px solid #e0e0e0"}); 
-		});
-	});
 	$(window).on('load resize', function () {
 		current_width = $(window).width();
 		if ( current_width < 767 ) {
@@ -381,7 +387,7 @@
 			{
 				latitude: +22.552087,
 				longitude: +114.135310,
-				html: "_latlng"
+				html: "我出没的地方",
 			}
 		]
     });
