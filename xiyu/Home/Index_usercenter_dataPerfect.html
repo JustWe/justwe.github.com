@@ -1,0 +1,286 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<title>西域金融网-用户中心-资料完善</title>
+<meta content="网贷,p2b网贷,p2p网络借贷,网络借贷,网络投资,投资理财,p2b投融资" name="keywords">
+<meta content="互联网融投资平台." name="description">
+<meta http-equiv="X-UA-Compatible" content="edge"/>
+<script src="../Public/Js/jquery.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="../Public/Js/jquery.SuperSlide.2.1.1.js"></script>
+<link rel="stylesheet" href="../Public/Css/reset.css" type="text/css"/>
+<link rel="stylesheet" href="../Public/Css/default.css" type="text/css"/>
+<style type="text/css">
+</style>
+<body>
+ <div class="homeMain">
+  <!--头部-->
+    <div class="headerTheme">
+     <h1 class="headerLogo">
+      <a href="Index_home.html" title="西域金融网-互联网投融资平台">西域金融网-互联网投融资平台</a>
+     </h1>
+     <div class="headTopRight">
+      <p><a href="Index_login.html">登录</a>|<a href="Index_regist_general.html">注册</a></p>
+      <p><span class="hz">服务热线： </span><span class="headTopTel">020-85207608</span></p>
+     </div>
+    </div>
+    
+    <!--导航-->
+    <ul class="headerNav">
+      <li class="headerNavFrist"><a href="Index_home.html">首页</a></li>
+      <li><a href="Index_vip.html">VIP通道</a></li>
+      <li class="flowVisible"><a href="Index_invest.html">我要投资</a></li>
+      <li class="flowVisible"><a href="Index_financing.html">我要融资</a></li>
+      <li class="flowVisible"><a href="Index_messageShow.html">并购信息</a></li>
+      <li class="headerNavLast flowVisible"><a href="Index_aboutus.html">关于我们</a>
+        <div class="subnav" style="display: none;">
+          <a href="Index_aboutus_news.html">媒体报道</a>
+          <a href="Index_aboutus_team.html">投研团队</a>
+          <a href="Index_aboutus_notice.html">网站公告</a>
+        </div>
+      </li>
+      <li class="flowVisible"><a href="Index_help.html">帮助中心</a></li>
+    </ul>
+    <script type="text/javascript">
+    $(".flowVisible").each(function(){
+        $(this).hover(function(){
+            
+          $(this).children('.subnav').show();
+        },function(){
+          $(this).children('.subnav').hide();
+        })
+  
+    });
+    </script>
+  <!-- 头部 end -->
+  <!-- 页面内容 start-->
+  <div class="w950 ">
+  <!-- 用户中心 start -->
+
+   <div class="ucenter_box ">
+     <!--用户中心 左侧菜单栏 start -->
+     <div id="u-menu" class="">
+       <h3 class="t1"><a href="Index_usercenter.html" title="我的西域金融">我的西域金融</a></h3>
+       <!-- 菜单列表 -->
+       <ul class="u-nav" id="user_menu">
+       <!-- 个人中心 -->
+         <li class="item u-widget" id="user_menu_my" name="user_menu_my">
+           <h5>个人中心<span class="ico ico-minus"></span></h5>
+           <ul class="sub widget-body">
+             <!-- <li><a href="#">个人主页</a></li> -->
+             <li><a href="Index_usercenter_basicInformation.html">基本资料</a></li>
+             <li><a href="Index_usercenter_Authenticate.html">认证管理</a></li>
+             <li><a href="Index_usercenter_changePassword.html">密码设置</a></li>
+             <li  class="current"><a href="#">详细信息</a></li>
+           </ul>
+         </li>
+         <!-- 投资管理 -->
+         <li class="item u-widget opened" id="user_menu_invest" name="user_menu_invest">
+           <h5>投资管理<span class="ico ico-minus"></span></h5>
+           <ul class="sub widget-body">
+             <li><a href="Index_usercenter_release_invest.html">我发布的投资</a></li>
+             <li><a href="Index_usercenter_follow_invest.html">我关注的投资</a></li>
+           </ul>
+         </li>
+         <!-- 融资管理 -->
+         <li class="item u-widget" id="user_menu_loan" name="user_menu_loan">
+           <h5>融资管理<span class="ico ico-minus"></span></h5>
+           <ul class="sub widget-body" style="display:block;">
+             <li><a href="Index_usercenter_release_invest.html">我发布的融资</a></li>
+             <li><a href="Index_usercenter_follow_invest.html">我关注的融资</a></li>
+           </ul>
+         </li>
+       </ul>
+       <script type="text/javascript">      
+       /*左边栏*/
+        $(".u-widget h5").each(
+          function(){
+          $(this).click(
+            function(){
+            $(this).find('.ico').toggleClass("ico-plus");
+            $(this).siblings('.widget-body').slideToggle(300); 
+            }
+          );  
+        });
+       </script>
+    </div>
+   </div>
+   <!-- 用户中心 左侧菜单栏 end -->
+   <!-- 用户中心 右侧内容 start -->
+   <div id="u-main">
+
+    <ul class="utab clearfix noline">
+      <li class="tabs current"><a>资料完善</a></li>
+    </ul>
+
+    <div class="u-tipsbox mt15 font14">请您认真填写，所有资料均会严格保密。
+    </div>
+    
+    <form id="profile_info_form" class="u-form-wrap" style="display: block;">
+       <div class="i-item i-item-first">
+        <label class="i-til">单位名称：</label>
+        <div class="i-right" style="width:455px;">
+           <input id="info_realname" name="realname" type="text" class="i-inp" value="">
+         </div>
+       </div>
+       <!-- /.i-item -->
+       <div class="i-item noborder">
+        <label class="i-til">身份证号：</label>
+        <div class="i-right" style="width:455px;">
+           <input id="info_idcard" name="idcard" type="text" class="i-inp" value="">
+         </div>
+       </div>
+       <!-- /.i-item -->
+       <div class="i-item noborder">
+        <label class="i-til">联系地址：</label>
+        <div class="i-right" style="width:455px;">
+           <input id="info_address" name="address" type="text" class="i-inp" value="">
+           <p class="tips"><span class="ico-msg"><i></i>格式: XX区XX路XX号</span></p>
+         </div>
+       </div>
+       <!-- /.i-item -->
+       <div class="i-item noborder">
+        <label class="i-til">单位电话：</label>
+        <div class="i-right" style="width:455px;">
+           <input id="info_address_phone" name="address_phone" type="text" class="i-inp" value="">
+           <p class="tips"><span class="ico-msg"><i></i>格式: 0755-12345678</span></p>
+         </div>
+       </div>
+       <!-- /.i-item -->
+       <div class="i-item" noborder>
+        <label class="i-til">所在地区：</label>
+        <div class="i-right" style="width:455px;margin-top:5px">
+          <select id="sel_region" name="region" tabindex="5">
+                <option value="1" selected="true">广东省</option>
+                <option value="2" >广东省</option>
+                <option value="3" >北京市</option>
+              </select>
+        </div>
+       </div>
+
+
+       <!--
+       以下为机构会员资料 字段 
+        -->
+       <!-- /.i-item -->
+       <div class="i-item noborder">
+        <label class="i-til">机构代码：</label>
+        <div class="i-right" style="width:455px;margin-top:10px;">
+           <input id="info_address_phone" name="address_phone" type="text" class="i-inp" value="">
+         </div>
+       </div>
+      
+       <!-- /.i-item -->
+       <div class="i-item hasborderbot" style="height:375px;">
+        <label class="i-til">营业执照扫描：</label>
+        <div class="i-right mt15" style="width:455px;"><div class="i-item">
+           <input id="info_avatar" name="avatar" type="hidden">
+           <div class="i-up">
+             <span class="ava_up">上传图片</span>
+             <span id="avatar_file_box">
+               <input id="info_avatar_file" name="avatar_file" type="file">
+             </span>
+           </div>
+           <div class="i-head-pic avatar-preview mt15" style="width:400px;">
+             <img style="width:400px;height:200px;" src="../Public/Images/example.jpg">
+           </div>
+           <div class="pop-wrap mt30" style="display:block;">
+            <div class="pop-in">
+               <div class="pop-til">
+                <h3>上传图片 <span class="xblue">( <i></i>您需要上传小于1M的JPG格式的图片 )</span></h3>
+               </div>
+             </div>
+          </div>
+           <!-- /.pop-wrap -->
+           <div class="clearbox"></div>
+         </div>
+        </div>
+       </div>
+
+       <!-- 提交资料时出现错误的提示，由display控制 -->
+       <!-- /.i-item -->
+       <div class="i-item center" id="profile_info_msg" style="display:none;">
+          <p class="tips">
+            <span class="ico-error">
+              <i></i>请上传1m以下的图片尺寸
+            </span>
+          </p>
+       </div>
+       
+       <!-- /.i-item -->
+       <div class="i-item-btn mt15">
+          <div class="login_btn ucenter_btn">
+            <input type="button" class="cliRegBtn" onclick="" value="确认提交">
+          </div>
+       </div>
+     </form>
+      
+   </div>
+   <div class="clearbox"></div>
+     <!-- 用户中心 右侧内容 end -->
+   <!-- 用户中心 end -->
+  <!-- 底部 start -->
+   <div class="homeFooter w950">
+     <div class="FNav">
+       <a href="Index_home.html">首页</a>| 
+       <a href="Index_aboutus.html" target="_blank">关于我们</a>| 
+       <a href="Index_help.html" target="_blank">帮助中心</a>| 
+       <a href="Index_aboutus_team.html" target="_blank">投研团队</a>| 
+       <a href='Index_aboutus_notice.html' target="_blank">网站公告</a>| 
+       <a href="Index_aboutus_news.html" target="_blank">媒体报道</a>| 
+       <a href="Index_aboutus_contact.html" target="_blank">联系我们</a>
+     </div>
+     <p>
+       粤ICP备11003098号 Copyright xiyu, All Rights Reserved 2013-2014 版权所有<br> 西域投资管理（广东）有限公司
+     </p>
+   </div>
+   <!-- 底部 end -->
+  </div>
+  <!-- 页面内容 end -->
+  
+  <!-- 右侧固定栏 start -->
+  <div class="w918">
+    <ul id="backtop">
+      <li class="lineHeight">
+        <a href="#" title="微信" id="wxhover">微信</a>
+      </li>
+
+      <div class="popover" style="display:none">
+        <div class="arrow"></div>
+        <div class="popover-content">
+          <p>扫描关注西域金融微信</p>
+          <div style="width:120px;height:120px;margin-left:5px;">
+            <img src="../Public/Images/wechat.jpg">
+          </div>
+        </div>
+      </div>
+
+      <li class="siderBack">
+        <a href="#" title="回到顶部">回到顶部</a>
+      </li>
+    </ul>
+
+  </div>
+  <script type="text/javascript">
+   // 控制二维码
+   $(function () {
+            $("#wxhover").mouseover(function () {
+                $(".popover").show("fast");
+            });
+            $("#wxhover").mouseleave(function () {
+                $(".popover").hide("fast");
+            });
+   });
+
+    //点击回到顶部
+    $('.siderBack').click(
+        function(){
+        $('body,html').animate({scrollTop:0},400);
+        return false; 
+        }
+    );
+
+  <!-- 右侧固定栏 end -->
+
+</body>
+</html>
