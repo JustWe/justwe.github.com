@@ -48,8 +48,10 @@ ul, li {
 	padding-right: 5px;
 }
 .aside_el  h2 {
-	font: 2.9em 'Arvo', serif; /* 29px/10 */
-	line-height: 0.8em;
+	/*font: 2.9em 'Arvo', serif;*/ /* 29px/10 */
+	font: 2.8em 'helvetica neue',arial,'hiragino sans gb',stheiti,'wenquanyi micro hei',\5FAE\8F6F\96C5\9ED1,\5B8B\4F53,sans-serif;
+	/*line-height: 0.8em;*/
+	line-height: 0.9em;
 	color: #464646;
 	font-weight: normal;
 	margin-bottom: 3px;
@@ -206,8 +208,10 @@ body {
 	margin: -4px 0 25px 0;
 }
 .site_header h3 {
-	font: 2.5em 'Droid Sans', sans-serif; /* 25px/10 */
-	line-height: 1.2em; /* 30px/25px */
+	/*font: 2.5em 'Droid Sans', sans-serif;*/ /* 25px/10 */
+	/*line-height: 1.2em;*/ /* 30px/25px */
+    font: 2.4em 'helvetica neue',arial,'hiragino sans gb',stheiti,'wenquanyi micro hei',\5FAE\8F6F\96C5\9ED1,\5B8B\4F53,sans-serif;
+    line-height: 1.4;
 	font-weight: 400;
 	color: #a4a5a6;
 	margin-right: 8%;
