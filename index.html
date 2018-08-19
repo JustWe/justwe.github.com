@@ -79,6 +79,7 @@
                                     <a href="https://plus.google.com/105302768312327014636" target="_blank"><img src="public/image/google-plus.png" data-at2x="http://7xphsv.com1.z0.glb.clouddn.com/public%2Fimage%2Fgoogle-plus%402x.png" alt=""></a>
                                 </li> -->
                                 <!--<li><a href=""><img src="http://7xphsv.com1.z0.glb.clouddn.com/public%2Fimage%2Frss.png" data-at2x="http://7xphsv.com1.z0.glb.clouddn.com/public%2Fimage%2Frss%402x.png" alt=""></a></li>-->
+                                <!--<li><a href="https://www.instagram.com/just__we/"><img src="" data-at2x="" alt=""></a></li>-->
                                 <li>
                                     <a href="http://dribbble.com/justwe" target="_blank"><img src="public/image/dribbble.png" data-at2x="http://7xphsv.com1.z0.glb.clouddn.com/public%2Fimage%2Fdribbble%402x.png" alt=""></a>
                                 </li>
@@ -89,9 +90,9 @@
                         </div>
                         <div class="info">
                             <ul>
-                                <li><span class="icon-mobile"></span><a>暂不提供，烦请联系邮箱</a></li>
-                                <li><span class="icon-location"></span><a>深圳 罗湖</a></li>
                                 <li><span class="icon-mail"></span><a>hxyinsan@gmail.com</a></li>
+                                <li class="hovergo"><span class="icon-mobile"></span><a href="#contact">已移至“如何联系”</a></li>
+                                <li><span class="icon-location"></span><a>深圳 罗湖</a></li>
                             </ul>
                         </div>
                     </div>
@@ -367,10 +368,10 @@
                 <div id="contact">
                     <aside class="span3 aside_el">
                         <h2>如何联系</h2>
-                        <h5>如果你有兴趣<br>请email我</h5>
+                        <h5>如果您有兴趣<br>请先玩个<br>小游戏<br>:p</h5>
                     </aside>
                     <div class="span9 borderleft">
-                        <div class="map_content">
+                        <!-- <div class="map_content">
                             <div class="map_in">
                                 <div class="add_info">
                                     <div class="profile_row header first">联系信息</div>
@@ -386,7 +387,10 @@
                                 </div>
                                 <div id="map_addresses"></div>
                             </div>
-                        </div>
+                        </div> -->
+                        <canvas id="canvas"></canvas>
+                        <p class="gameExplain">通过键盘方向键“↑↓←→”来移动小球</p>
+                        <p class="infoAuthor">感谢<span style="color:#0099e8">@dissimulate</span>的创作</p>
                     </div>
                 </div>
             </footer>
@@ -398,7 +402,8 @@
     <script src="public/js/lightbox.js"></script>
     <script src="public/js/retina.min.js"></script>
     <script src="public/js/jquery.gmap.min.js"></script>
-    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDfpyEPz6ZswDgopOu0JLL_AsNy8H8ygXA&sensor=false"></script>
+    <script src="public/js/ggame.js"></script>
+    <!-- <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDfpyEPz6ZswDgopOu0JLL_AsNy8H8ygXA&sensor=false"></script> -->
     <script>
     $(window).on('load resize', function() {
         current_width = $(window).width();
@@ -522,6 +527,17 @@
             /*html: "我出没的地方",*/
         }]
     });
+    // 禁用上下方向键滚动
+    document.onkeydown=function(e){
+        var e = e || window.event;
+        if(e.keyCode == '38' || e.keyCode == '40'){
+        if(e.preventDefault){
+        e.preventDefault();
+        }else{
+            e.returnValue = false;
+            }
+        }
+    }
     </script>
 </body>
 

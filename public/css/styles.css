@@ -978,3 +978,25 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 .profile_row.website .th {
     background-position: 0 -108px;
 }
+canvas {
+    display:block;
+    margin: 10px auto 20px;
+    border: 1px solid #666;
+    -webkit-box-shadow: 0px 0px 6px rgba(3, 3, 3, 0.5);
+	-moz-box-shadow:    0px 0px 6px rgba(3, 3, 3, 0.5);
+	box-shadow:         0px 0px 6px rgba(3, 3, 3, 0.5);
+}
+.gameExplain{
+	font-size: 14px;
+  	color: #999;
+  	margin: 0 auto;
+  	text-align: center;
+}
+.infoAuthor{
+	font-size: 12px;
+  	color: #c0c0c0;
+  	text-align: center;
+}
+.info ul .hovergo a:hover{
+	color: #222;
+}
