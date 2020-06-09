@@ -1,0 +1,15 @@
+.Vidage__video{
+	position: absolute;
+    z-index: 0;
+    min-width: 100%;
+    min-height: 100%;
+    left: 0px;
+    top: 0px;
+    overflow: hidden;
+    opacity: 1;
+    transition-property: opacity;
+    transition-duration: 2000ms;
+}
+span.apple-emoji{
+	font-family:-apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji;
+}
