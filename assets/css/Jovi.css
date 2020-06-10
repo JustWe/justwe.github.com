@@ -20,7 +20,7 @@
 ------------------*/
 
 
-@import url(https://justwe2020-1259313610.cos.ap-shenzhen-fsi.myqcloud.com/assets/css/fonts-google-css2.css);
+@import url(https://jovi2020-1259313610.cos.ap-guangzhou.myqcloud.com/assets/css/fonts-google-css2.css);
 
 
 /* ---------------------------------------------- /*
@@ -526,7 +526,7 @@ a {
 .section-home {
     height: 100vh;
     position: relative;
-    background-image: url("https://justwe2020-1259313610.cos.ap-shenzhen-fsi.myqcloud.com/assets/images/banner.png");
+    background-image: url("https://jovi2020-1259313610.cos.ap-guangzhou.myqcloud.com/assets/images/banner.png");
     background-size: cover;
     background-position: center;
 }
@@ -1058,27 +1058,27 @@ li.active:after {
 }
 
 .services-list-1 {
-    background-image: url("https://justwe2020-1259313610.cos.ap-shenzhen-fsi.myqcloud.com/assets/images/services1.jpg");
+    background-image: url("https://jovi2020-1259313610.cos.ap-guangzhou.myqcloud.com/assets/images/services1.jpg");
 }
 
 .services-list-2 {
-    background-image: url("https://justwe2020-1259313610.cos.ap-shenzhen-fsi.myqcloud.com/assets/images/services2.jpg");
+    background-image: url("https://jovi2020-1259313610.cos.ap-guangzhou.myqcloud.com/assets/images/services2.jpg");
 }
 
 .services-list-3 {
-    background-image: url("https://justwe2020-1259313610.cos.ap-shenzhen-fsi.myqcloud.com/assets/images/services3.jpg");
+    background-image: url("https://jovi2020-1259313610.cos.ap-guangzhou.myqcloud.com/assets/images/services3.jpg");
 }
 
 .services-list-4 {
-    background-image: url("https://justwe2020-1259313610.cos.ap-shenzhen-fsi.myqcloud.com/assets/images/services4.jpg");
+    background-image: url("https://jovi2020-1259313610.cos.ap-guangzhou.myqcloud.com/assets/images/services4.jpg");
 }
 
 .services-list-5 {
-    background-image: url("https://justwe2020-1259313610.cos.ap-shenzhen-fsi.myqcloud.com/assets/images/services5.jpg");
+    background-image: url("https://jovi2020-1259313610.cos.ap-guangzhou.myqcloud.com/assets/images/services5.jpg");
 }
 
 .services-list-6 {
-    background-image: url("https://justwe2020-1259313610.cos.ap-shenzhen-fsi.myqcloud.com/assets/images/services6.jpg");
+    background-image: url("https://jovi2020-1259313610.cos.ap-guangzhou.myqcloud.com/assets/images/services6.jpg");
 }
 
 
@@ -1088,7 +1088,7 @@ li.active:after {
 
 
 .section-freelance {
-    background: url(https://justwe2020-1259313610.cos.ap-shenzhen-fsi.myqcloud.com/assets/images/FunDiving.png);
+    background: url(https://jovi2020-1259313610.cos.ap-guangzhou.myqcloud.com/assets/images/FunDiving.png);
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
